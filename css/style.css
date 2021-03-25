@@ -1,3 +1,6 @@
+html{
+    background-color: white;
+}
 body{
     margin: 0;
     padding: 0;
@@ -44,7 +47,7 @@ body{
     margin: 0px 50px;
     color: ivory;
     cursor: pointer;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 12.5pt;
 }
 .container-nav ul li:hover{
@@ -64,12 +67,13 @@ body{
     display: flex;
     margin: 0 auto;
     cursor: pointer;
-    background-color: lavender;
-    border-radius: 5px;
+    background-color: white;
+    /* border-radius: 5px; */
     position:static;
+    transition: 1s;
 }
 .container-logo img:hover{
-    background-color: rgb(211, 207, 206);
+    transform: scale(0.9);
 }
 .container-lista1{
     display: flex;
@@ -79,7 +83,7 @@ body{
     list-style: none;
     margin: 40px 20px 0px 0px;
     line-height: 2.0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     cursor:context-menu;
     color: lavender;
 }
@@ -92,7 +96,7 @@ body{
     list-style: none;
     margin: 40px 40px 0px 20px;
     line-height: 2.0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     cursor:context-menu;
     color: lavender;
 }
@@ -101,7 +105,7 @@ body{
     cursor: pointer;
 }
 .form-group h5{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 16pt;
     margin: 40px 0px 10px 40px;
     cursor:context-menu;
@@ -112,13 +116,13 @@ body{
 }
 .form-group input{
     margin: 20px 0px 10px 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 12pt;
     color: olive;
 }
 .form-group button{
     margin: 20px 0px 10px 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 12pt;
     background-color: orangered;
     color: papayawhip;
@@ -137,7 +141,7 @@ body{
     display: flex;
     margin: 0 auto;
     margin-top: 20px;
-    transition: 1s;
+    transition: 2s;
     margin-bottom: 30px;
 }
 .tarjetas img:hover{
@@ -146,7 +150,7 @@ body{
 }
 .copy{
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: papayawhip;
     font-size: 10pt;
     justify-content: center;
@@ -168,20 +172,20 @@ body{
     padding-top: 120px;
     padding-right: 10px;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 28pt;
     color: white;
     cursor:context-menu;
 }
 .cont-sect1 h2{
     cursor:context-menu;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 34pt;
     color: black;
     padding-right: 10px;
 }
 .cont-sect1 button{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 12pt;
     background-color: orangered;
     color: papayawhip;
@@ -195,6 +199,7 @@ body{
 
 .container-section2{
     width: 100%;
+    height: 30vh;;
     border-top: 6vh solid rgb(54, 48, 56);
 }
 .row-section2{
@@ -204,37 +209,37 @@ body{
     justify-content: center;
     margin-top: -40px;
 }
-.col-1{
-    width: 30%;
+.col-1section2{
+    width: 25%;
     height: 200px;
-    margin: 20px;
+    margin: 20px 10px 0px 0px;
     border-radius: 10px 10px 0 0;
     background-image: url("http://localhost/paginawebcompleta/img/cascos.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.col-2{
-    width: 30%;
+.col-2section2{
+    width: 25%;
     height: 200px;
-    margin: 20px;
+    margin: 20px 10px 0px 0px;
     border-radius: 10px 10px 0 0;
     background-image: url("http://localhost/paginawebcompleta/img/gafas.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.col-3{
-    width: 30%;
+.col-3section2{
+    width: 25%;
     height: 200px;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
     border-radius: 10px 10px 0 0;
     background-image: url("http://localhost/paginawebcompleta/img/ropa.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.sub1{
+.sub1section2{
     height: 60%;
     display: flex;
     justify-content: center;
@@ -243,33 +248,301 @@ body{
     box-sizing: border-box;
 }
 
-.sub2{
+.sub2section2{
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.sub2 a{
+.sub2section2 a{
     width: 100%;
     padding-top: 10px;
 }
 
-.sub2 a button{
+.sub2section2 a button{
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
     background-color: rgb(54, 48, 56);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20pt;
     color: white;
 }
 
-.sub2 a button:hover{
+.sub2section2 a button:hover{
     background-color: rgb(36, 31, 37);
     cursor: pointer;
 }
 
 /* section3-main */
 
+.container-section3{
+    width: 100%;
+    height: 60vh;
+}
+.row-section3{
+    text-align: center;
+}
+.row-section3 img{
+    width: 40%;
+}
+.row-section3 h1{
+    margin: 20px 0px 40px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 32pt;
+    background-color: rgb(36, 31, 37);
+    letter-spacing: 10px;
+}
+
+/* section 4 main */
+
+.container-section4{
+    width: 100%;
+    height: 70vh;
+}
+.row-section4{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.col1-section4{
+    width: 30%;
+    height: 300px;
+    background-image: url("http://localhost/paginawebcompleta/img/bicicletaM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.col2-section4{
+    width: 30%;
+    height: 300px;
+    background-image: url("http://localhost/paginawebcompleta/img/bicicletaR.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.col3-section4{
+    width: 30%;
+    height: 300px;
+    background-image: url("http://localhost/paginawebcompleta/img/patineta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.sub1-section4{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 300px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: orangered;
+}
+.sub2-section4{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.sub3-section4{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.sub3-section4 a button{
+    width: 100%;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    border: none;
+    background-color:#e5e5e5;
+    color: rgb(26, 20, 15) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    transition: 1s;
+}
+.sub3-section4 a button:hover{
+    color: orangered;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* main section 5 */
+
+.container-section5{
+    width: 100%;
+    height: 60vh;
+    background-image: url("http://localhost/paginawebcompleta/img/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.row-section5{
+    height: 30vh;
+    width: 40%;
+    margin:0 auto;
+    text-align:center;
+}
+.row-section5 h1{
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 38pt;
+    color: black;
+    /* background-color:rgb(36, 31, 37); */
+    letter-spacing: 10px;
+}
+.row-section5 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 18pt;
+    color: orangered;
+    
+    /* background-color:rgb(36, 31, 37); */
+}
+.row-section5 button{
+    border: none;
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.row-section5 input{
+    padding: 9px 44px 9px 14px;
+    border: none;
+    background-color: rgba(36, 31, 37, 0.308);
+}
+/* main section 6 */
+.container-section6{
+    width: 100%;
+    height: 75vh;
+    background-image: url("http://localhost/paginawebcompleta/img/banner3.png");
+    background-repeat: no-repeat;
+    display: flex;
+}
+.row-section6{
+    width: 30%;
+    height: 40%;
+    margin-left: 10px;
+}
+.row-section6 h5{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 22pt;
+}
+.row-section6 h1{
+    color: rgb(182, 119, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 46pt;
+    padding: 10px 10px 10px 0px;
+}
+.row-section6 p{
+    color: black;
+    width: 100%;
+    text-align: justify;
+    padding: 10px 10px 10px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+.row-section6 button{
+    border: none;
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+/* main section 7 */
+
+.container-section7{
+    width: 100%;
+    height: 150vh;
+}
+.row1-section7{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.row1-section7 h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    color: black;
+}
+.row1-section7 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 62pt;
+    color: orangered;
+}
+.row2-section7{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.col1-section7{
+    width: 30%;
+    height: 300px;
+    background-image: url("http://localhost/paginawebcompleta/img/tiendamedellin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.sub1-section7{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 300px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+.sub2-section7{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.col2-section7{
+    width: 30%;
+    height: 300px;
+    background-image: url("http://localhost/paginawebcompleta/img/tiendabarranquilla.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.col3-section7{
+    width: 30%;
+    height: 300px;
+    background-image: url("http://localhost/paginawebcompleta/img/tiendabogota.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.row3-section7{
+    width: 100%;
+    display:block;
+}
+.row3-section7 img{
+    float: right;
+    width: 8%;
+    padding-top: 140px;
+    transition: 1s;
+}
+.row3-section7 img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
