@@ -58,6 +58,7 @@ body{
 
 .container-fot{
     width: 100%;
+    height: 70vh;
     background-image: url("http://localhost/paginawebcompleta/img/ciclismo.png");
     background-repeat: no-repeat;
     background-position: top;
@@ -68,7 +69,6 @@ body{
     margin: 0 auto;
     cursor: pointer;
     background-color: white;
-    /* border-radius: 5px; */
     position:static;
     transition: 1s;
 }
@@ -134,15 +134,15 @@ body{
 .form-group button:hover{
     background-color: rgb(255, 175, 2);
 }
-
+.tajetas{
+    width: 100%;
+}
 .tarjetas img{
-    width: 35%;
-    background-color: lavender;
+    width: 25%;
+    height: 20vh;
     display: flex;
     margin: 0 auto;
-    margin-top: 20px;
     transition: 2s;
-    margin-bottom: 30px;
 }
 .tarjetas img:hover{
     cursor: pointer;
@@ -155,7 +155,9 @@ body{
     font-size: 10pt;
     justify-content: center;
 }
-
+.copy span{
+    padding-bottom: 40px;
+}
 /* main */
 
 /* section1-main */
@@ -431,7 +433,7 @@ body{
 .row-section6{
     width: 30%;
     height: 40%;
-    margin-left: 10px;
+    margin-left: 60px;
 }
 .row-section6 h5{
     color: black;
