@@ -468,24 +468,20 @@ body{
 
 .container-section7{
     width: 100%;
-    height: 150vh;
+    height: 110vh;
 }
 .row1-section7{
     width: 30%;
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding-top: 60px;
-}
-.row1-section7 h5{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 14pt;
-    color: black;
+    padding-top: 30px;
 }
 .row1-section7 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 62pt;
     color: orangered;
+    margin:0;
 }
 .row2-section7{
     width: 90%;
